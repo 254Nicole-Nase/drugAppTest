@@ -13,7 +13,7 @@
         <ul>
             <li class="addDrug <?php if($section == "addDrug"){echo "on";}?>"><a href="addDrug.php?cat=addDrug">Add Drug</a></li>
             <li class="addDrug <?php if($section == "dashboard"){echo "on";}?>"><a href="dashboard.php?cat=addDrug">Dashboard</a></li>
-            <li><a href="#">Logout</a></li>
+            <li><a href="logout.php">Logout</a></li>
         </ul>
     </nav>
 </div>
