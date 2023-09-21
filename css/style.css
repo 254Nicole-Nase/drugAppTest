@@ -146,6 +146,59 @@ header h1 {
     border: 0;
 }
 
+.category-banner {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    width: 100%;
+}
+@media print, screen and (min-width: 740px) {
+    .category-banner {
+        flex-direction: row;
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 952px) {
+    .drug-header__title {
+        background-color: #262626;
+        background-image: url(https://cdn.adf.org.au/static/dist/img/ADF_Pattern_Repeat_Dark_Gray.89b66f84.png);
+        background-position: 50%;
+        background-size: 118%;
+    }
+}
+
+@media print, screen and (min-width: 740px) {
+    .drug-header__title {
+        background-color: #262626;
+        background-image: url(https://cdn.adf.org.au/static/dist/img/ADF_Pattern_Repeat_Dark_Gray.89b66f84.png);
+        background-position: top;
+        background-size: 170%;
+        border-radius: 0.25rem 0 0 0.25rem;
+        justify-content: space-between;
+        padding: 0.75rem 1.25rem 0.8125rem;
+        width: calc(100% - 18.75rem);
+    }
+}
+
+.drug-header__title {
+    background-color: #262626;
+    background-image: url(https://cdn.adf.org.au/static/dist/img/ADF_Pattern_Repeat_Dark_Gray.89b66f84.png);
+    background-position: bottom;
+    background-size: 125%;
+    border-radius: 0.25rem 0.25rem 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0.5625rem 1.25rem 0.8125rem;
+}
+.overlay__wrapper {
+    display: flex;
+}
 /* Add any additional styles as needed */
 
 /* Style the form */

@@ -37,7 +37,7 @@ $catalog[102] = [
         "(crack) cocaine",
         "amphetamines (speed and ice)",
         "methamphetamine (crank)",
-        "ecstasy (MDMA – methylenedioxymethamphetamine)",
+        "ecstasy (MDMA - methylenedioxymethamphetamine)",
         "nicotine (tobacco)."
     ],
     "effects" => [
