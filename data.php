@@ -32,13 +32,13 @@ $catalog[102] = [
     "category" => "Stimulants",
     "examples" => [      
         "dopamine",
-        "norepinephrine",
+        "Caffeine",
         "serotonin",
         "(crack) cocaine",
-        "amphetamines",
+        "amphetamines (speed and ice)",
         "methamphetamine (crank)",
-        "euphoric",
-        "Robert C. Martin"
+        "ecstasy (MDMA – methylenedioxymethamphetamine)",
+        "nicotine (tobacco)."
     ],
     "effects" => [
         "Depersonalization (a feeling that you are an observer of yourself)",
