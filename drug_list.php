@@ -4,9 +4,9 @@
 function get_drug_html($drug) {
     $output = "<li>";
     $output .= "<h2>" . $drug["drug_name"] . "</h2>";
+        // Add the image tag to display the drug image
+        $output .= "<img src='" . $drug["image_url"] . "' alt='" . $drug["drug_name"] . "' />";
     $output .= "<p>" . $drug["description"] . "</p>";
-    // Add the image tag to display the drug image
-    $output .= "<img src='" . $drug["image_url"] . "' alt='" . $drug["drug_name"] . "' />";
     // Add more HTML to display other drug details, if needed
     $output .= "</li>";
 
